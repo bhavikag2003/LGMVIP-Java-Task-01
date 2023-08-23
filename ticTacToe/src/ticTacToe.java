@@ -80,7 +80,7 @@ public class ticTacToe {
 			xCount++;
 			xScore.setText(String.valueOf(xCount));
 		}
-		else if(b2==1 && b5==1 && b7==1) {
+		else if(b2==1 && b5==1 && b8==1) {
 			JOptionPane.showMessageDialog(frame, "Player X Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);
 			xCount++;
 			xScore.setText(String.valueOf(xCount));
@@ -122,7 +122,7 @@ public class ticTacToe {
 			oCount++;
 			oScore.setText(String.valueOf(oCount));
 		}
-		else if(b2==0 && b5==0 && b7==0) {
+		else if(b2==0 && b5==0 && b8==0) {
 			JOptionPane.showMessageDialog(frame, "Player O Wins", "Tic Tac Toe", JOptionPane.INFORMATION_MESSAGE);
 			oCount++;
 			oScore.setText(String.valueOf(oCount));
