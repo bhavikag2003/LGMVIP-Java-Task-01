@@ -1,4 +1,4 @@
-# LGMVIP-Java-Task-02
+# LGMVIP-Java-Task-01
 ----
 GUI-based Tic-Tac-Toe Game using Java, Java Swing, and JFrame.
 ----
